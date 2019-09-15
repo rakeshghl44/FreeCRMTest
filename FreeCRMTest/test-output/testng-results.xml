@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-09-15T22:23:09Z" name="Free CRM Test -Suite" finished-at="2019-09-15T22:25:12Z" duration-ms="122952">
+    <groups>
+    </groups>
+    <test started-at="2019-09-15T22:23:09Z" name="CRM Test cases" finished-at="2019-09-15T22:25:12Z" duration-ms="122952">
+      <class name="com.crm.qa.testcases.LoginTestPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginTestPage@4e50c791]" started-at="2019-09-15T22:23:09Z" name="setup" finished-at="2019-09-15T22:23:20Z" duration-ms="11274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginPageTitleTest()[pri:0, instance:com.crm.qa.testcases.LoginTestPage@4e50c791]" started-at="2019-09-15T22:23:20Z" name="loginPageTitleTest" finished-at="2019-09-15T22:23:20Z" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.qa.testcases.LoginTestPage@4e50c791]" started-at="2019-09-15T22:23:20Z" name="closeBrowser" finished-at="2019-09-15T22:23:22Z" duration-ms="1090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginTestPage@4e50c791]" started-at="2019-09-15T22:24:12Z" name="setup" finished-at="2019-09-15T22:24:22Z" duration-ms="10227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="crmLogoImageTest()[pri:1, instance:com.crm.qa.testcases.LoginTestPage@4e50c791]" started-at="2019-09-15T22:24:22Z" name="crmLogoImageTest" finished-at="2019-09-15T22:24:22Z" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crmLogoImageTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.qa.testcases.LoginTestPage@4e50c791]" started-at="2019-09-15T22:24:22Z" name="closeBrowser" finished-at="2019-09-15T22:24:23Z" duration-ms="1035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginTestPage@4e50c791]" started-at="2019-09-15T22:24:47Z" name="setup" finished-at="2019-09-15T22:24:58Z" duration-ms="11307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:2, instance:com.crm.qa.testcases.LoginTestPage@4e50c791]" started-at="2019-09-15T22:24:58Z" name="loginTest" finished-at="2019-09-15T22:25:11Z" duration-ms="13077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.qa.testcases.LoginTestPage@4e50c791]" started-at="2019-09-15T22:25:11Z" name="closeBrowser" finished-at="2019-09-15T22:25:12Z" duration-ms="995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.crm.qa.testcases.LoginTestPage -->
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@7530ad9c]" started-at="2019-09-15T22:23:22Z" name="setUp" finished-at="2019-09-15T22:23:44Z" duration-ms="22347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageTitleTest()[pri:0, instance:com.crm.qa.testcases.HomePageTest@7530ad9c]" started-at="2019-09-15T22:23:44Z" name="verifyHomePageTitleTest" finished-at="2019-09-15T22:23:44Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.crm.qa.testcases.HomePageTest@7530ad9c]" started-at="2019-09-15T22:23:44Z" name="browserClose" finished-at="2019-09-15T22:23:45Z" duration-ms="1152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@7530ad9c]" started-at="2019-09-15T22:24:23Z" name="setUp" finished-at="2019-09-15T22:24:46Z" duration-ms="22145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCorrectUsernameTest()[pri:1, instance:com.crm.qa.testcases.HomePageTest@7530ad9c]" started-at="2019-09-15T22:24:46Z" name="verifyCorrectUsernameTest" finished-at="2019-09-15T22:24:46Z" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrectUsernameTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.crm.qa.testcases.HomePageTest@7530ad9c]" started-at="2019-09-15T22:24:46Z" name="browserClose" finished-at="2019-09-15T22:24:47Z" duration-ms="1047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+      <class name="com.crm.qa.testcases.ContactsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@58a9760d]" started-at="2019-09-15T22:23:45Z" name="setUp" finished-at="2019-09-15T22:24:11Z" duration-ms="25741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyContactsPageLabelTest()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@58a9760d]" started-at="2019-09-15T22:24:11Z" name="verifyContactsPageLabelTest" finished-at="2019-09-15T22:24:11Z" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsPageLabelTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@58a9760d]" started-at="2019-09-15T22:24:11Z" name="browserClose" finished-at="2019-09-15T22:24:12Z" duration-ms="1042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
+    </test> <!-- CRM Test cases -->
+  </suite> <!-- Free CRM Test -Suite -->
+</testng-results>
