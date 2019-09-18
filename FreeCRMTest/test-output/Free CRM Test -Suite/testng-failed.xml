@@ -10,6 +10,23 @@
           <include name="browserClose"/>
         </methods>
       </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <methods>
+          <include name="verifyCorrectUsernameTest"/>
+          <include name="setUp"/>
+          <include name="browserClose"/>
+          <include name="verifyHomePageTitleTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+      <class name="com.crm.qa.testcases.LoginTestPage">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="loginPageTitleTest"/>
+          <include name="loginTest"/>
+          <include name="crmLogoImageTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.LoginTestPage -->
     </classes>
   </test> <!-- CRM Test cases(failed) -->
 </suite> <!-- Failed suite [Free CRM Test -Suite] -->

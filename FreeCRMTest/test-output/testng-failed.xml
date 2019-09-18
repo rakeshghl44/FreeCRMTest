@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Free CRM Test -Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="CRM Test cases(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.crm.qa.testcases.ContactsPageTest">
+      <class name="com.crm.qa.testcases.LoginTestPage">
         <methods>
-          <include name="setUp"/>
-          <include name="verifyContactsPageLabelTest"/>
-          <include name="browserClose"/>
+          <include name="closeBrowser"/>
+          <include name="loginPageTitleTest"/>
+          <include name="loginTest"/>
+          <include name="crmLogoImageTest"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
+      </class> <!-- com.crm.qa.testcases.LoginTestPage -->
     </classes>
-  </test> <!-- CRM Test cases(failed) -->
-</suite> <!-- Failed suite [Free CRM Test -Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
